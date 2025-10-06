@@ -63,29 +63,9 @@ BiznisBox is open-source business management software that includes the followin
 - **Open Banking Integration** – Supports GoCardless
 - **Payment Gateway Integration** – Supports Stripe & PayPal for online payments
 
-## Need help?
+## Screenshoots
 
-If you need help, please contact us at our email address: [app@biznisbox.com](mailto:app@biznisbox.com).
 
-You can also open an [issue on GitHub](https://github.com/biznisbox/biznisbox/issues).
-
-Documentation is available at [https://docs.biznisbox.com](https://docs.biznisbox.com).
-
-## 🤝 Contribute
-
-We welcome contributions! Here’s how you can help:
-
-- 🐛 Report bugs on [GitHub Issues](https://github.com/biznisbox/biznisbox/issues).
-- 💡 Suggest features via discussions.
-- 📖 Improve docs or translate the app.
-- 🔧 Submit PRs for fixes/new features.
-
-First time contributing? Check out our [Contributor Guide](https://docs.biznisbox.com/docs/developer-guide/contributing).
-
-## License
-
-BiznisBox is open-source software licensed under the [AGPL-3.0 License](https://opensource.org/licenses/AGPL-3.0).
-
-## Brand rules
-
-Please refer to the [brand rules](https://docs.biznisbox.com/brand-rules) before using the BiznisBox logo.
+<img width="1917" height="1021" alt="Screenshot 2025-10-06 085624" src="https://github.com/user-attachments/assets/dea4efd6-860e-4633-89cc-80331b753090" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-06 085642" src="https://github.com/user-attachments/assets/5a797146-1f34-48fd-a9be-3034c1649461" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-06 085823" src="https://github.com/user-attachments/assets/36e4693a-0a3b-4b99-a972-a43a4120eaf4" />
