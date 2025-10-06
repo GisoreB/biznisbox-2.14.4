@@ -1,0 +1,16 @@
+public
+node_modules
+vendor
+storage
+resources/views/pdfs
+.env
+composer.lock
+yarn.lock
+package-lock.json
+public/build
+public/hot
+public/storage
+storage/*.key
+.env.backup
+composer.json
+package.json

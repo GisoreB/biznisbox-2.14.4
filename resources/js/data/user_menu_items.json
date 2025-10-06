@@ -1,0 +1,137 @@
+[
+    {
+        "name": "user_menu_items.dashboard",
+        "meta": ["dashboard"],
+        "permission": "",
+        "icon": "fa fa-dashboard",
+        "permissions": [],
+        "to": "/"
+    },
+    {
+        "name": "user_menu_items.admin",
+        "meta": ["admin"],
+        "permission": "admin",
+        "permissions": [],
+        "icon": "fa fa-cogs",
+        "to": "/admin"
+    },
+    {
+        "name": "user_menu_items.products",
+        "meta": ["products"],
+        "permission": "products",
+        "icon": "fa fa-cubes",
+        "to": "/products",
+        "permissions": []
+    },
+    {
+        "name": "user_menu_items.partners",
+        "meta": ["partners"],
+        "permission": "partners",
+        "permissions": [],
+        "icon": "fa fa-handshake",
+        "to": "/partners"
+    },
+    {
+        "name": "user_menu_items.billing",
+        "meta": ["billing"],
+        "icon": "fa fa-cash-register",
+        "permission": "",
+        "permissions": ["invoices", "quotes"],
+        "children": [
+            {
+                "name": "user_menu_items.invoices",
+                "meta": ["invoices"],
+                "permission": "invoices",
+                "to": "/invoices"
+            },
+            {
+                "name": "user_menu_items.quotes",
+                "meta": ["quotes"],
+                "permission": "quotes",
+                "to": "/quotes"
+            }
+        ]
+    },
+    {
+        "name": "user_menu_items.purchases",
+        "meta": ["purchases"],
+        "permission": "",
+        "permissions": ["bills"],
+        "icon": "fa fa-shopping-basket",
+        "children": [
+            {
+                "name": "user_menu_items.bills",
+                "meta": ["bills"],
+                "permission": "bills",
+                "to": "/bills"
+            }
+        ]
+    },
+    {
+        "name": "user_menu_items.banking",
+        "meta": ["banking"],
+        "permissions": ["accounts", "transactions"],
+        "permission": "",
+        "icon": "fa fa-university",
+        "children": [
+            {
+                "name": "user_menu_items.accounts",
+                "meta": ["accounts"],
+                "permission": "accounts",
+                "to": "/accounts"
+            },
+            {
+                "name": "user_menu_items.transactions",
+                "meta": ["transactions"],
+                "permission": "transactions",
+                "to": "/transactions"
+            },
+            {
+                "name": "user_menu_items.payments",
+                "meta": ["payments"],
+                "permission": "payments",
+                "to": "/payments"
+            }
+        ]
+    },
+    {
+        "name": "user_menu_items.archive",
+        "meta": ["archive"],
+        "icon": "fa fa-archive",
+        "permission": "archive",
+        "permissions": [],
+        "to": "/archive"
+    },
+    {
+        "name": "user_menu_items.support",
+        "meta": ["support"],
+        "icon": "fa fa-life-ring",
+        "permission": "support",
+        "permissions": [],
+        "to": "/support"
+    },
+    {
+        "name": "user_menu_items.employees",
+        "meta": ["employees"],
+        "icon": "fa fa-users",
+        "permission": "employees",
+        "permissions": [],
+        "to": "/employees"
+    },
+    {
+        "name": "user_menu_items.calendar",
+        "meta": ["calendar"],
+        "icon": "fa fa-calendar-alt",
+        "permission": "calendar",
+        "permissions": [],
+        "to": "/calendar"
+    },
+    {
+        "name": "user_menu_items.contracts",
+        "meta": ["contracts"],
+        "icon": "fa fa-file-contract",
+        "permission": "contracts",
+        "permissions": [],
+        "to": "/contracts"
+    }
+]

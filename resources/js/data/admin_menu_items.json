@@ -1,0 +1,132 @@
+[
+    {
+        "name": "admin.menu.dashboard",
+        "meta": ["dashboard"],
+        "icon": "fa fa-dashboard",
+        "permission": "",
+        "permissions": [],
+        "to": "/"
+    },
+    {
+        "name": "admin.menu.admin_dashboard",
+        "meta": ["admin-dashboard"],
+        "icon": "fa fa-cogs",
+        "permission": "admin",
+        "permissions": [],
+        "to": "/admin"
+    },
+    {
+        "name": "admin.menu.users",
+        "meta": ["users"],
+        "icon": "fa fa-users",
+        "permission": "admin_users",
+        "permissions": [],
+        "to": "/admin/users"
+    },
+    {
+        "name": "admin.menu.company",
+        "meta": ["company"],
+        "icon": "fa fa-building",
+        "permission": "admin_company_settings",
+        "permissions": [],
+        "to": "/admin/company"
+    },
+    {
+        "name": "admin.menu.departments",
+        "meta": ["departments"],
+        "icon": "fa fa-building-user",
+        "permission": "admin_departments",
+        "permissions": [],
+        "to": "/admin/departments"
+    },
+    {
+        "name": "admin.menu.integrations",
+        "meta": ["integrations"],
+        "icon": "fa fa-plug",
+        "permissions": [],
+        "permission": "admin_integrations",
+        "to": "/admin/integrations"
+    },
+    {
+        "name": "admin.menu.roles",
+        "meta": ["roles"],
+        "icon": "fa fa-user-secret",
+        "permission": "admin_roles",
+        "permissions": [],
+        "to": "/admin/roles"
+    },
+    {
+        "name": "admin.menu.webhooks",
+        "meta": ["webhooks"],
+        "icon": "fa fa-link",
+        "permission": "admin_webhooks",
+        "permissions": [],
+        "to": "/admin/webhooks"
+    },
+    {
+        "name": "admin.menu.settings",
+        "meta": ["settings"],
+        "permission": "",
+        "permissions": ["admin_general_settings", "admin_currencies", "admin_numbering", "admin_tax_rates", "admin_units"],
+        "icon": "fa fa-cog",
+        "children": [
+            {
+                "name": "admin.menu.settings_general",
+                "meta": ["settings-general"],
+                "permission": "admin_general_settings",
+                "to": "/admin/settings/general"
+            },
+            {
+                "name": "admin.menu.data_collection",
+                "meta": ["settings-data-collection"],
+                "permission": "admin_data_collection",
+                "to": "/admin/settings/data-collection"
+            },
+            {
+                "name": "admin.menu.settings_currency",
+                "meta": ["settings-currency"],
+                "permission": "admin_currencies",
+                "to": "/admin/settings/currencies"
+            },
+            {
+                "name": "admin.menu.numbering",
+                "meta": ["settings-numbering"],
+                "permission": "admin_numbering",
+                "to": "/admin/settings/numbering"
+            },
+            {
+                "name": "admin.menu.settings_taxes",
+                "meta": ["settings-taxes"],
+                "permission": "admin_tax_rates",
+                "to": "/admin/settings/taxes"
+            },
+            {
+                "name": "admin.menu.units",
+                "meta": ["settings-units"],
+                "permission": "admin_units",
+                "to": "/admin/settings/units"
+            }
+        ]
+    },
+    {
+        "name": "admin.menu.server_settings",
+        "meta": ["server-settings"],
+        "icon": "fa fa-server",
+        "permission": "",
+        "permissions": ["admin_email_settings", "admin_status_page"],
+        "children": [
+            {
+                "name": "admin.menu.email",
+                "meta": ["settings-email"],
+                "permission": "admin_email_settings",
+                "to": "/admin/settings/email"
+            },
+            {
+                "name": "admin.menu.status_page",
+                "meta": ["settings-status-page"],
+                "permission": "admin_status_page",
+                "to": "/admin/status-page"
+            }
+        ]
+    }
+]
